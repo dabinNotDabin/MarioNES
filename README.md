@@ -26,10 +26,8 @@ For the following steps, (gdb) is not part of the command but an indicator that 
       
       
 Note that I am currently working on compatibility with Raspbian, an operating system for the Raspberry Pi.
-  This has been difficult mostly due to differences in frame buffer properties between the Raspberry Pi's default and the standard for     
-  Raspbian. The Raspberry Pi uses 16 bpp colour information by default and the program was written to function this way whereas the
-  Raspbian works in 32 bpp. I am not currently well versed enough nor do I have the time to develop a windowed application but I will
-  eventually come up with something that people can check out without a JTAG kit and a breakout board.
+  This may be difficult as I am not currently well versed enough nor do I have the time to develop an application that can run in a
+  window as a standalone but I will eventually come up with something that people can check out without a JTAG kit and a breakout board.
 
 
 
