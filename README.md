@@ -55,10 +55,10 @@ Note that I am currently working on compatibility with Raspbian, an operating sy
     
     
 # Bugs
-      ! Mario stands awkwardly after jumping and landing partially on, partially off of a block of some kind
-      ! Mario is snapped to grid inappropriately when landing after jumping
-      ! Mario's movement off of the top of the screen is not handled and can cause crashes or extremely unpredictable behavior
-      ! Mario doesn't always win in sprite collisions when it is obvious that he should.
-      ! Question Blocks pop out coins when collided with from below and if there is another collidable tile too close above the question         block, it will produce erroneous outcomes.
-      ! When a cannon top is immediately horizontally adjacent to a floor, wood, or question block and Mario stands on that block, the           game can crash
+   * Mario stands awkwardly after jumping and landing partially on, partially off of a block of some kind
+   * Mario is snapped to grid inappropriately when landing after jumping
+   * Mario's movement off of the top of the screen is not handled and can cause crashes or extremely unpredictable behavior
+   * Mario doesn't always win in sprite collisions when it is obvious that he should.
+   * Question Blocks pop out coins when collided with from below and if there is another collidable tile too close above the question         block, it will produce erroneous outcomes.
+   * When a cannon top is immediately horizontally adjacent to a floor, wood, or question block and Mario stands on that block, the           game can crash
     
