@@ -2,6 +2,8 @@
 
 Quick Setup and Run
 
+  Note: Before running make all, you may have to create a separate empty directory called 'build' in the base directory to which you save this repo. When finished, there should be two directories, 'source' and 'build' in the base directory.
+
 1. Connect 40pin Ribbon Cable from Pi to a Breakout Board along with a NES controller.
 2. Connect microUSB Power Cable to the Pi
 3. Start J-Link GDB Server in its own terminal window
