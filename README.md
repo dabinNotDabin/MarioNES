@@ -39,18 +39,19 @@ Note that I am currently working on compatibility with Raspbian, an operating sy
   These are the level grids and correspond to the levels avaliable in game. The numbers in the 2D arrays can be changed to recreate the level where the only restriction is the types of tiles the game currently supports and possibly the CPU speed when too large an amount of tiles requiring animation are instantiated.
   
   The codes for the tile types are as follows.
-    1   -   Floor Block
-    2   -   Goomba
-    4   -   Pipe Top Left
-    5   -   Pipe Top Right
-    6   -   Pipe Shaft Left
-    7   -   Pipe Shaft Right
-    8   -   Cannon Top
-    9   -   Cannon Bottom
-    12  -   Breakable Brick Block
-    16  -   Question Block
-    20  -   Coin
-    25  -   Invisible 'Game-Win-Trigger' Tile -- Collision triggers win animation.
+  
+   * 1   -   Floor Block
+   * 2   -   Goomba
+   * 4   -   Pipe Top Left
+   * 5   -   Pipe Top Right
+   * 6   -   Pipe Shaft Left
+   * 7   -   Pipe Shaft Right
+   * 8   -   Cannon Top
+   * 9   -   Cannon Bottom
+   * 12  -   Breakable Brick Block
+   * 16  -   Question Block
+   * 20  -   Coin
+   * 25  -   Invisible 'Game-Win-Trigger' Tile -- Collision triggers win animation.
     
     
     
